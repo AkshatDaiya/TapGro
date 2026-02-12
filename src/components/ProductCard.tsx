@@ -2,7 +2,7 @@ import type { Product } from "../types";
 
 export default function ProductCard({ product }: { product: Product }) {
   return (
-    <div className="bg-white rounded-2xl shadow-md p-4 transition-transform duration-300 hover:scale-105">
+    <div className="bg-white rounded-2xl shadow-md p-4 transition-transform duration-300 hover:scale-105 cursor-pointer">
       <img
         src={product.image}
         alt={product.title}
